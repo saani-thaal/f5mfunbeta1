@@ -1,0 +1,35 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+
+
+
+#for time & date (datetime, datetime.timedelta and time are python inbuilt)
+
+
+#for aliceblue 
+alice_blue
+protlib
+websocket_client
+requests
+bs4
+
+#for reading pydrive_token and exchange_token files(both .pickle) (json and pickle are python inbuilt)
+
+
+#uploadable data file format
+pyarrow #parquet
+
+#for file accessing ( os, sys, pathlib are python inbuilt)
+
+
+#for data processing
+numpy #it's not used but just in case pandas utilizes it
+pandas
+
+#for Google Drive API
+google-api-python-client 
+google-auth-httplib2 
+google-auth-oauthlib
